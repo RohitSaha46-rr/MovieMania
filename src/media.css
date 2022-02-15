@@ -1,4 +1,15 @@
 @media (min-width:300px) and (max-width:900px){
+    html{
+        overflow-y: visible;
+    }
+    .content .container  .top img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .content .container  .top h4{
+    padding-left: 15vw;
+    }
     .head{
         
     height: auto;
@@ -6,6 +17,9 @@
     .head .navbar-brand{
         
         font-size: 1.5rem;
+    }
+    .head form input{
+        width: 70vw;
     }
     .content{
         height: auto;

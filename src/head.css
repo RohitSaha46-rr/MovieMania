@@ -1,25 +1,36 @@
 .head{
     height: 10vh;
-    background-color: rgb(188 178 178);
+    background:linear-gradient(to right,rgb(53, 53, 238),rgb(13, 1, 78) 50%,black);
     
     
 }
 .head .navbar-brand{
     font-family: 'Orbitron', sans-serif;
     font-size: 2.5rem;
-    color: rgb(5, 112, 184);
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url(images/menu.png);
 }
 .head li a{
     font-family: 'Rubik', sans-serif;
     font-size: 1.5rem;
+    color: whitesmoke;
+    padding-left: 10px;
+    text-decoration: none;
 }
 .head input{
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    width: 20vw;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     background-color: whitesmoke;
     outline: none;
     border: none;
-    box-shadow: 4px 4px 5px rgb(107, 106, 106)
+    box-shadow: 4px 4px 5px rgb(54, 53, 53)
+}
+.head form button{
+    color: white;
+    border-color: whitesmoke;
 }

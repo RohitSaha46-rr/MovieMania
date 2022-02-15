@@ -8,7 +8,7 @@ import About from './About';
 ReactDOM.render(
   <BrowserRouter>
   <Routes>
-    <Route path='/MovieMania' element={<App/>}></Route>
+    <Route path='/' element={<App/>}></Route>
     <Route path='/about' element={<About/>}></Route>
   </Routes>
     
